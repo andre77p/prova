@@ -10,7 +10,7 @@ export async function adcionarVilao (vilao){
     return vilao;
 }
 
-export async function ListarTodosVilao(){
+export async function ListarTodosVilao()
     const comando = 
     `select id_vilao   'id',
     nm_vilao 'nome',
