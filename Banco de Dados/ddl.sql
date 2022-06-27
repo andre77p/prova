@@ -1,8 +1,8 @@
-create database prova;
+create database vilaoDB;
 
-use prova;
+use vilaoDB;
 
-create table TB_VILAO (
+create table tb_vilao (
 	id_vilao 	int primary key auto_increment,
     nm_vilao 	varchar(100),
     ds_maldades	varchar(200),
@@ -11,4 +11,4 @@ create table TB_VILAO (
 );
 
         
-        select * from TB_VILAO;
+        select * from tb_vilao;

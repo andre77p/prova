@@ -1,10 +1,16 @@
-use prova;
+use vilaoDB;
 
 
-insert TB_VILAO (nm_vilao, ds_maldades, bt_super_poder)
+insert tb_vilao (nm_vilao, ds_maldades, bt_super_poder)
 		values ("Coringa", "Nunca tira o sorriso do rosto", true);
         
-insert TB_VILAO (nm_vilao, ds_maldades, bt_super_poder)
-		values ("Voldemort", "Oque Voldemort não tem de nariz, tem de crueldade", false);
+insert tb_vilao (nm_vilao, ds_maldades, bt_super_poder)
+		values ("Voldemort", "Oque Voldemort não tem de nariz, tem de crueldade", true);
         
-        select * from TB_VILAO;
+select id_vilao,
+       nm_vilao,
+       ds_maldades,
+       bt_super_poder 
+from tb_vilao
+
+        select * from tb_vilao;
